@@ -1,0 +1,27 @@
+.content {
+  width: 100%;
+  padding: 50rpx 20rpx;
+}
+.contentitle {
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.btnbottom {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 350rpx;
+}
+.classButtom {
+  padding: 0 20rpx !important;
+  background-color: #169BD5;
+  width: 200rpx;
+  height: 60rpx;
+  margin: auto;
+  border-radius: 8rpx;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 28rpx;
+}

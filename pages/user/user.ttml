@@ -1,0 +1,33 @@
+<view class="titleContent">
+  <view class="boximg"><image class="img" src="../../images/search.png" mode="" /></view>
+  <view class="tapInfo" bindtap="info">昵称昵称 ></view>
+</view>
+
+<view class="boxbody">
+  <view class="contenttap" bindtap="MerchantsInfo">
+    <view>
+      商户信息
+    </view>
+    <view class="yicon">
+      <image src="../../images/you.png" mode="" />
+    </view>
+  </view>
+
+   <view class="contenttap borcolor">
+    <view>
+      联系品台客服
+    </view>
+    <view class="yicon">
+      <image src="../../images/you.png" mode="" />
+    </view>
+  </view>
+
+   <view class="contenttap" bindtap="aboutInfo">
+    <view>
+      关于小程序
+    </view>
+    <view class="yicon">
+      <image src="../../images/you.png" mode="" />
+    </view>
+  </view>
+</view>

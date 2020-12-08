@@ -1,0 +1,49 @@
+/* pages/user/user.ttss */
+.boxInfo {
+  width: 100%;
+  padding: 20rpx;
+}
+.boxInfos {
+  width: 100%;
+}
+.bitian{
+  font-size: 26rpx;
+  color: red;
+  width: 100%;
+}
+.left-title{
+  font-size: 28rpx;
+  margin-left: 30rpx;
+}
+.left-box {
+  width: 40%;
+  padding: 0 20rpx;
+}
+.djq{
+  padding-top: 20rpx;
+  border-bottom: 1rpx solid #D2D2D3;
+}
+.box-form{
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px 0;
+}
+.contenttext {
+  text-align: center;
+}
+.btnbottom {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 200rpx;
+}
+.classButtom {
+  padding: 0 20rpx !important;
+  background-color: #169BD5;
+  width: 200rpx;
+  height: 60rpx;
+  margin: auto;
+  border-radius: 8rpx;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 28rpx;
+}

@@ -1,0 +1,43 @@
+.titleContent {
+  width: 100%;
+  height: 320rpx;
+  padding-top: 60rpx;
+  background-color: #fff;
+}
+.boximg {
+  width: 150rpx;
+  height: 150rpx;
+  margin: auto;
+}
+.tapInfo {
+  width: 50%;
+  margin: auto;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.boxbody {
+  width: 95%;
+  margin: 20rpx auto 0;
+}
+.contenttap {
+  position: relative;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+.yicon {
+  position: absolute;
+  right: 20rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30rpx;
+  height: 30rpx;
+}
+.borcolor {
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}

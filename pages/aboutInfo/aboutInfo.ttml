@@ -1,0 +1,8 @@
+
+<view class="content">
+  <view class="contentitle">免责声明</view>
+  <view>本小程序用于方便个人或商家快速发券和核劵，不对券的真实性做保证。如有疑问可联系平台客服</view>
+</view>
+<view class="btnbottom">
+  <view class="classButtom">保存</view>
+</view>

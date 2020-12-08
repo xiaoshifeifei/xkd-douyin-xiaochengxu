@@ -1,0 +1,46 @@
+<view class="boxInfo">
+	<view class="djq">
+		<view class="box-form flex middle">
+			<view class="left-box">
+				<text class="bitian">* </text>
+				<text class="left-title">商家名称　</text>
+			</view>
+			<input
+          type="text"
+          bindinput="handleInput"
+          value="{{name}}"
+          placeholder="请输入名称"
+        />
+    </view>
+</view>
+<view class="boxInfos">
+	<view class="djq">
+		<view class="box-form flex middle">
+			<view class="left-box">
+				<text class="bitian">* </text>
+				<text class="left-title">客服电话</text>
+			</view>
+			<input
+          type="text"
+          bindinput="handleInputPhone"
+          value="{{phone}}"
+          placeholder="请输入名称"
+        />
+    </view>
+</view>
+
+<view class="box-form flex middle">
+	<view class="left-box">
+		<text class="bitian">* </text>
+		<text class="left-title">logo</text>
+	</view>
+	<van-uploader max-count="1" file-list="{{ kaPianFileList }}" bind:after-read="afterRead" bind:delete="delete" bind:before-read="beforeRead"
+	/>
+ 
+</view>
+
+ <view class="contenttext">支持jpg、jpeg、png文件，建议尺寸130px*130px，1M以下</view>
+</view>
+<view class="btnbottom">
+  <view class="classButtom">保存</view>
+</view>

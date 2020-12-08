@@ -1,0 +1,30 @@
+<!--custom-tab-bar/index.ttml-->
+<!-- <text>custom-tab-bar/index.wxml</text> -->
+
+<!-- tabbar 
+    "custom": true,-->
+<view class>
+	<view class="cu-bar">
+		<!-- <image src="/libs/images/tabbar/tabbarImg.png" mode="scaleToFill" class="tabBarbgImg" /> -->
+		<view class="text-green tab-bar-item" tt:for="{{list}}" tt:key="index" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
+			<view class="center column">
+			<!-- class="{{index==1?'shoppingImg':'otherImg'}}" -->
+			<!-- style="color: {{selected === index ? selectedColor : color}};{{index==1?'margin-top:44rpx':''}}" -->
+				<image src="{{selected === index ? item.selectedIconPath : item.iconPath}}" class="otherImg"></image>
+				<view style="color: {{selected === index ? selectedColor : color}};">{{item.text}}</view>
+			</view>
+		</view>
+	</view>
+	<view class="safeArea">
+	</view>
+	<!-- <view class="action text-gray add-action" data-index="1" bindtap="switchTab">
+      <button class="cu-btn cuIcon-add bg-green shadow"></button>
+      商城
+    </view>
+    <view class="action text-gray" data-index="2" bindtap="switchTab">
+      <view class="cuIcon-my">
+        <view class="cu-tag badge"></view>
+      </view>
+      我的
+    </view> -->
+</view>

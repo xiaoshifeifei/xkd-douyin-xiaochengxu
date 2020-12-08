@@ -1,0 +1,44 @@
+/* custom-tab-bar/index.ttss */
+.cu-bar{
+  background: white;
+  /* border-top: 1rpx solid #efefef; */
+}
+/* iPhone X系列 底部安全区域 */
+.safeArea{
+  width: 100%;
+  /* height: 30rpx; */
+  height: env(safe-area-inset-bottom);
+  background: white;
+}
+
+.tab-bar-item {
+  flex: 1;
+  height: 100%;
+  width: 240rpx;
+  z-index: 10;
+}
+
+.otherImg {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.tab-bar-item .column {
+  font-size: 24rpx;
+  position: relative;
+}
+/* 背景图片 */
+.tabBarbgImg{
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+/* 悬浮商城图片 */
+.shoppingImg{
+  top: -84rpx;
+  width: 120rpx;
+  height: 128rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -60rpx;
+}

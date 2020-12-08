@@ -1,0 +1,32 @@
+<wxs src="./index.wxs" module="computed"></wxs>
+<wxs src="../../../wxs/utils.wxs" module="utils" />
+
+<view class="van-calendar__month" style="{{ computed.getMonthStyle(visible, date, rowHeight) }}">
+  <view tt:if="{{ showMonthTitle }}" class="van-calendar__month-title">
+    {{ computed.formatMonthTitle(date) }}
+  </view>
+
+  <view tt:if="{{ visible }}" class="van-calendar__days">
+    <view tt:if="{{ showMark }}" class="van-calendar__month-mark">
+      {{ computed.getMark(date) }}
+    </view>
+
+    <view tt:for="{{ days }}" tt:key="index" style="{{ computed.getDayStyle(item.type, index, date, rowHeight, color) }}" class="{{ utils.bem('calendar__day', [item.type]) }} {{ item.className }}" data-index="{{ index }}" bindtap="onClick">
+      <view tt:if="{{ item.type === 'selected' }}" class="van-calendar__selected-day" style="background: {{ color }}">
+        <view tt:if="{{ item.topInfo }}" class="van-calendar__top-info">{{ item.topInfo }}</view>
+        {{ item.text }}
+        <view tt:if="{{ item.bottomInfo }}" class="van-calendar__bottom-info">
+          {{ item.bottomInfo }}
+        </view>
+      </view>
+
+      <view tt:else>
+        <view tt:if="{{ item.topInfo }}" class="van-calendar__top-info">{{ item.topInfo }}</view>
+        {{ item.text }}
+        <view tt:if="{{ item.bottomInfo }}" class="van-calendar__bottom-info">
+          {{ item.bottomInfo }}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

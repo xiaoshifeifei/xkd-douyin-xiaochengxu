@@ -1,0 +1,27 @@
+<view tt:if="{{isHide}}">
+	<!-- <view tt:if="{{canIUse}}"> -->
+	<!-- <cu-custom bgColor="bg-white" isCustom="{{true}}">
+        <view slot="content">登录</view>
+    </cu-custom> -->
+	<view class='header flex center'>
+		<image src='http://m.qpic.cn/psc?/V12sD0Pg4ItIx5/ruAMsa53pVQWN7FLK88i5khmO8YLRyjM0rdnTKy6nJOpwDM8hbMp2WuBguaRmgrmFvvOGK8hBhIhCxQHNxDdprvRjIAXVuupfhIUJGzcoIY!/mnull&bo=AAQABAAAAAADByI!&rf=photolist&t=5'></image>
+	</view>
+	<view tt:if="{{!clickLogin}}" class='content'>
+		<view>.申请获取以下权限</view>
+		<text>.获得你的公开信息(昵称，头像等)</text>
+	</view>
+	<view tt:else class='content'>
+		<view>.申请获取以下权限</view>
+		<text>.获得您在平台绑定的手机号</text>
+	</view>
+	<button tt:if="{{!clickLogin}}" class='bottom' bindtap="getDYuserinfo" type='primary'>
+			授权登录
+		</button>
+    <button tt:else  class='bottomPhone'  open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumberHandler">获取手机号</button>
+	<!-- </view> -->
+	<!-- <view tt:else>请升级微信版本</view> -->
+</view>
+<view class='cu-load load-modal' tt:if="{{showlogin}}">
+  <image style="margin:0;" src="/libs/images/base/loading.jpg" mode="aspectFit"></image>
+  <view class='gray-text'>登录中...</view>
+</view>

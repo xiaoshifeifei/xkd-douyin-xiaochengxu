@@ -1,0 +1,245 @@
+<view class="ttui-cells">
+	<radio-group bindchange="checkboxChange" class="radiogroup flex">
+		<label
+          class="ttui-cell center"
+          tt:for="{{items}}"
+          tt:key="{{item.value}}"
+        >
+          <view class="ttui-cell__hd">
+            <radio
+              value="{{item.value}}"
+              checked="{{item.checked}}"
+              disabled="{{false}}"
+              color='#146EEB'
+            />
+          </view>
+          <view class="ttui-cell__bd">{{ item.name }}</view>
+        </label>
+      </radio-group>
+    </view>
+    <!-- 代金券 -->
+    <view class="djq">
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">商家名称　</text>
+        </view>
+        <input
+          type="text"
+          bindinput="handleInput"
+          value="{{name}}"
+          placeholder="请输入商家名称"
+        />
+        <!-- <van-field
+    value="{{ name }}"
+    label="商家名称"
+    placeholder="请输入商家名称"
+    required
+    border="{{false}}"
+    bind:change="handleInput"
+  /> -->
+      </view>
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">卡券背景图</text>
+        </view>
+        <van-uploader
+          max-count="1"
+          file-list="{{ kaPianFileList }}"
+          bind:after-read="afterRead"
+          bind:delete="delete"
+          bind:before-read="beforeRead"
+        />
+      </view>
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">券logo　　</text>
+        </view>
+        <van-uploader
+          max-count="1"
+          file-list="{{ loGoFileList }}"
+          bind:after-read="afterReadLogo"
+          bind:delete="deleteLogo"
+          bind:before-read="beforeReadLogo"
+        />
+      </view>
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">使用条件　</text>
+        </view>
+        <textarea value="{{shiyong}}"  bindinput="shiyongOnTextInput" class="textarea" placeholder="请填写使用条件" />
+      </view>
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">有效期　　</text>
+        </view>
+        <view>
+          <radio-group bindchange="checkboxChangeYou" class="radiogroup flex">
+            <label
+              class="ttui center"
+              tt:for="{{youxiaoqi}}"
+              tt:key="{{item.value}}"
+            >
+              <view class="ttui-cell__hd">
+                <radio
+                  value="{{item.value}}"
+                  checked="{{item.checked}}"
+                  disabled="{{false}}"
+                  color="#146EEB"
+                />
+              </view>
+              <view class="ttui-cell__bd">{{ item.name }}</view>
+            </label>
+          </radio-group>
+          <input
+            tt-if="{{typeyou=='gd'?true:false}}"
+            class="gd-input"
+            disabled="true"
+            value="{{gdvalue}}"
+            bindtap="tapGuDing"
+            placeholder="开始日期-结束日期"
+          />
+          <input
+            tt-if="{{typeyou=='yx'?true:false}}"
+            class="gd-input"
+            value="{{tianshu}}"
+            bindInput="tianShuInput"
+            placeholder="领取生效，有效期天数,请输入天数"
+          />
+        </view>
+      </view>
+
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">客服电话　</text>
+        </view>
+        <input
+          bindinput="handleInput"
+          value="{{phone}}"
+          bindInput="phoneInput"
+          type="name"
+          placeholder="请输入客服电话"
+        />
+      </view>
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">领取须知　</text>
+        </view>
+        <textarea value="{{xuzhi}}" bindinput="xuzhiInput"  class="textarea" placeholder="请填写领取须知" />
+      </view>
+
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">最低消费　</text>
+        </view>
+        <view>
+          <radio-group bindchange="checkboxChangeZd" class="radiogroup flex">
+            <label
+              class="ttui center"
+              tt:for="{{zuidixiaofei}}"
+              tt:key="{{item.value}}"
+            >
+              <view class="ttui-cell__hd">
+                <radio
+                  value="{{item.value}}"
+                  checked="{{item.checked}}"
+                  disabled="{{false}}"
+                  color="#146EEB"
+                />
+              </view>
+              <view class="ttui-cell__bd">{{ item.name }}</view>
+            </label>
+          </radio-group>
+          <input
+            tt-if="{{typezuidi=='zd'?true:false}}"
+            class="gd-input"
+            value="{{zuidivalue}}"
+            bindinput="zuidiInput"
+            placeholder="用户消费满　' '　元有效"
+          />
+          <!-- <input
+            tt-if="{{typeyou=='yx'?true:false}}"
+            class="gd-input"
+            value="{{gdvalue}}"
+            placeholder="金额"
+          /> -->
+        </view>
+      </view>
+
+      <view class="box-form flex middle">
+        <view class="left-box" tt-if="{{type=='djq'}}">
+          <text class="bitian">* </text>
+          <text class="left-title">减免金额　</text>
+        </view>
+        <view class="left-box" tt-else>
+          <text class="bitian">* </text>
+          <text class="left-title">折扣　　　</text>
+        </view>
+        <input
+          type="text"
+          bindinput="jianmianInput"
+          value="{{jianmianvalue}}"
+          placeholder="请输入减免金额"
+        />
+      </view>
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">每人限领　</text>
+        </view>
+        <input
+          type="text"
+          bindinput="mrxlInput"
+          value="{{mrxlvalue}}"
+          placeholder="请输入每人限领"
+        />
+      </view>
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">发券总量　</text>
+        </view>
+        <input
+          type="text"
+          bindinput="fjzlInput"
+          value="{{fjzlvalue}}"
+          placeholder="请输入发券总量"
+        />
+      </view>
+
+      <view class="box-form flex middle">
+        <view class="left-box">
+          <text class="bitian">* </text>
+          <text class="left-title">发放券广场</text>
+        </view>
+        <view>
+          <radio-group bindchange="checkboxChangeYesOrNo" class="radiogroup flex">
+            <label
+              class="ttui center"
+              tt:for="{{isoryes}}"
+              tt:key="{{item.value}}"
+            >
+              <view class="ttui-cell__hd">
+                <radio
+                  value="{{item.value}}"
+                  checked="{{item.checked}}"
+                  disabled="{{false}}"
+                  color="#146EEB"
+                />
+              </view>
+              <view class="ttui-cell__bd">{{ item.name }}</view>
+            </label>
+          </radio-group>
+        </view>
+      </view>
+    </view>
+   <view class="get-coupon">
+    <view bindtap="getCoupon" class="classButtom" type="warn" loading="{{loadingBtn}}">完成</view>
+  </view>

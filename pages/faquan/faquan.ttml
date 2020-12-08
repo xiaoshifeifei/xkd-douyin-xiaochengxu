@@ -1,0 +1,55 @@
+<!-- <view class="make-button">
+	<button type="default" class="classButtom" size="mini" bindtap="goToMakeCoupon">＋ 制作优惠券</button>
+  </view> -->
+<view class='ditem' wx:for="{{datas}}">
+
+	<view class="name">
+		<text>肯德基</text>
+	</view>
+	<view class='dtview'>
+		<view class='dface'>
+			<image src='https://fc3tn.baidu.com/it/u=3253659183,3491377631&fm=202&src=bqdata'></image>
+		</view>
+		<view class='dcontent'>
+			<view class='dtitle dinfo Beyond_one'>{{item.title}}元 </view>
+			<view class='dinfo Beyond_one'>领1000张</view>
+			<view class='dinfo Beyond_one'>有限期至{{item.end_date}}</view>
+		</view>
+	</view>
+	<view class='dbview'>
+		<view class='ldb'>剩1000张</view>
+		<view class='rdb'>销{{item.num}}张</view>
+	</view>
+	<view class="footerButton clearfix">
+		<button type="default" class="classButtom float-right" size="mini" bindtap="defaultTap"> 删除 </button>
+		<button type="default" class="classButtom float-right" size="mini" bindtap="defaultTap"> 编辑 </button>
+    <button type="default" class="classButtom float-right" size="mini" bindtap="defaultTap"> 发券 </button>
+	</view>
+</view>
+<view class="round-click">
+  <view  data-type="{{currentIndex}}" class="fabuimg" bindtap='goToMakeCoupon'>创 建</view>
+</view>
+
+
+
+
+<view>代金卷</view>
+<view>代金卷</view>
+<radio-group>
+  <label class="" a:for="{{item}}">
+    <radio value="item.name" />{{item.value}}
+  </label>
+</radio-group>
+
+<view class="classname">
+  <view data-type="{{crount}}" class="fabuimg" bindtap="gotomacoupon"></view>
+</view>
+<view>
+  <view> 销100张</view>
+</view>
+
+
+
+
+
+

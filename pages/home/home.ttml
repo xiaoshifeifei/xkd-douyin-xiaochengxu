@@ -1,0 +1,88 @@
+<view id="page-index">
+	<view class="content-top">
+		<view id="search">
+			<image id="logo" src="http://m.qpic.cn/psc?/V12sD0Pg4ItIx5/ruAMsa53pVQWN7FLK88i5khmO8YLRyjM0rdnTKy6nJOpwDM8hbMp2WuBguaRmgrmFvvOGK8hBhIhCxQHNxDdprvRjIAXVuupfhIUJGzcoIY!/mnull&bo=AAQABAAAAAADByI!&rf=photolist&t=5"
+			 bindtap="selectAll"></image>
+			<input  placeholder-style="color:#666;" id="search-input" value="{{inputContent}}" placeholder="输入关键字搜索" bindinput="bindInputChange" bindconfirm="selectByItemName" />
+    <label id="search-label">
+      <image id="search-img" src="../../images/search.png" bindtap="selectByItemName"></image>
+    </label>
+  </view>
+  <view id="category">
+    <view class="category-item{{selectCategory=='C100'?' category-select':''}}" bindtap="selectByCategory" data-category-id="C100">
+      <view tt-if="{{selectCategory=='C100'}}">
+        <image src="../../images/all-s.png"></image><text class="s-color">综合</text>
+      </view>
+      <view tt-else>
+        <image src="../../images/all.png"></image>综合
+      </view>
+    </view>
+    <view class="category-item{{selectCategory=='C010'?' category-select':''}}" bindtap="selectByCategory" data-category-id="C010">
+      <block tt-if="{{selectCategory=='C010'}}">
+      <view tt-if="{{sort==1}}">
+        <image src="../../images/shen-s.png" ></image><text class="s-color">优惠力度</text>
+      </view>
+        <view tt-if="{{sort==2}}">
+        <image src="../../images/jian-s.png" ></image><text class="s-color">优惠力度</text>
+      </view>
+      </block>
+      <view tt-else>
+        <image src="../../images/shen.png"></image>优惠力度
+      </view>
+
+    </view>
+
+
+    <view class="category-item{{selectCategory=='C110'?' category-select':''}} category-item-last" bindtap="selectByCategory" data-category-id="C110">
+ 
+     <block tt-if="{{selectCategory=='C110'}}">
+      <view tt-if="{{sortnum==1}}">
+        <image src="../../images/shen-s.png" ></image><text class="s-color">数量</text>
+      </view>
+        <view tt-if="{{sortnum==2}}">
+        <image src="../../images/jian-s.png" ></image><text class="s-color">数量</text>
+      </view>
+      </block>      
+      <view tt-else>
+        <image src="../../images/shen.png"></image>数量
+      </view>
+
+    </view>
+
+  </view>
+  </view>
+  <view id="coupon-list">
+    <navigator hover-class="none" tt:for="{{couponList}}" tt:key="item.ItemID" url="/pages/details/details" bindtap="setCouponInfo" data-index="{{index}}" >
+      <view class="coupon-item">
+        <!-- <view class="border-left"></view> -->
+        <image src="{{item.ItemPic}}"></image>
+        <view class="goods-content">
+          <view class="goods-content-view">
+            <view class="goods-name">{{item.ItemName}}</view>
+            <view class="goods-price-sales">
+              <!-- <view class="goods-price">￥{{item.ItemPrice}}</view>
+              <view class="goods-price-coupon">￥{{item.QuanHouJia}}</view> -->
+              <view class="goods-sales">有效期: {{item.MonthlySales}}</view>
+            </view>
+            <view class="coupon-denomination">{{item.CouponDenomination}} 新人红包</view>
+          </view>
+        </view>
+        <view class="coupon-content">
+          <!-- <view class="coupon-background" style="white-space:pre-wrap">领\n取</view> -->
+          <view class="coupon-content-view">
+            <view class="coupon-coin">￥{{item.Jian}}</view>
+            <view class="coupon-num">数量: {{item.CouponTotal}}</view>
+            <view class="coupon-ratio">
+              <button type="primary"  catchtap="goToGetCoupon" class="classButtom" size="mini">领取</button>
+              <!-- <text>优惠\n比例</text>
+              <view>{{item.ZongHeBiLiText}}</view> -->
+            </view>
+          </view>
+        </view>
+        <!-- <view class="border-right"></view> -->
+      </view>
+    </navigator>
+  </view>
+  <import src="../template/template.wxml" />
+  <template is="loading" data="{{isLoading,loadOver}}" />
+</view>

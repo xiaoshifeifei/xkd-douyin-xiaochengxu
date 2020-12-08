@@ -1,0 +1,54 @@
+.radiogroup{
+  padding: 30rpx 0;
+}
+.ttui-cell{
+  margin-left: 30rpx;
+}
+.ttui{
+  margin-right: 30rpx;
+}
+.ttui-cells{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+   border-bottom: 1px solid #f1f1f1;
+   z-index: 999;
+}
+body{
+  background-color: #fff!important;
+}
+radio{
+margin-right: 0!important;
+}
+
+.djq{
+  padding-top: 130rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-bottom: 60px;
+}
+.bitian{
+  font-size: 26rpx;
+  color: red;
+}
+.left-title{
+  font-size: 28rpx;
+  margin-right: 30px;
+}
+.box-form{
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px 0;
+}
+.textarea{
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  flex: 1;
+}
+.gd-input{
+  border:1px solid #f1f1f1;
+  padding: 5px;
+}
+
+

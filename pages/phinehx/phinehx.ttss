@@ -1,0 +1,126 @@
+.dataBoxInput {
+  display: inline-block;
+  width: calc(95% - 100rpx);
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1rpx solid #767676;
+  background-color: #fff;
+  padding-left: 20rpx;
+  border-radius: 5rpx;
+}
+.dataBoxBtn {
+  display: inline-block;
+  width: 100rpx;
+  height: 80rpx;
+  vertical-align: top;
+   margin-left: 5%;
+   padding-top: 10rpx;
+
+}
+.classButtom {
+  padding: 0 20rpx !important;
+  background-color: #146EEB;
+  width: 100%;
+  height: 60rpx;
+  border-radius: 8rpx;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+}
+.bodycontent {
+  width: 100%;
+  height: 100%;
+  padding:20rpx 20rpx;
+}
+tt-input{
+  width: calc(95% - 100rpx);
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.content {
+  margin: 20rpx 40rpx;
+  background-color: #fff;
+  width: cala(100% - 80rpx);
+  border-radius: 5rpx;
+   padding: 20rpx;
+}
+.con-heard{
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.con-body {
+ width: 100%;
+}
+.content1 {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+}
+
+.content-title {
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.con1 {
+  margin-top: 20rpx;
+}
+
+.con2 {
+  margin-top: 20rpx;
+  padding-left: 22rpx;
+}
+.img1 {
+  width: 80%;
+  height: 100rpx;
+  margin: auto
+}
+.content2 {
+  display: inline-block;
+  width: 55%;
+  height: 100%;
+  vertical-align: top;
+}
+.content3 {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  vertical-align: top;
+}
+.img2 {
+  width: 80%;
+  height: 100rpx;
+  margin: 50rpx auto 0;
+}
+.open {
+  width: 100%;
+  height: 300rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.opentc {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 300rpx;
+  padding-top: 90rpx;
+  text-align: center;
+  background-color: #fff;
+  border: 1rpx solid #E6E6E6;
+  border-radius: 10rpx;
+  }
+  .icondel {
+    position: absolute;
+    top: 10rpx;
+    right: 25rpx; 
+    font-size: 50rpx;
+  }
+  .openBtn {
+    width: 150rpx;
+    margin:30rpx auto 0;
+  }
+  .titlets {
+    font-size: 33rpx;
+  }

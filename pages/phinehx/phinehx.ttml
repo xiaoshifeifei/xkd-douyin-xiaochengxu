@@ -1,0 +1,45 @@
+<view class="bodycontent">
+	<view class="dataBoxInput">
+		<input placeholder="请输入手机号/券码" bindinput="handleInput"/>
+  </view>
+  <view class="dataBoxBtn">
+     <!-- <button type="primary"  catchtap="goToGetCoupon" class="classButtom" size="mini">搜索</button> -->
+     <view catchtap="goToGetCoupon" class="classButtom">搜索</view>
+     <!-- <button class="mini-btn" type="info" size="mini">按钮</button> -->
+  </view>
+</view>
+<!-- tt:if -->
+<view>
+  <view class="content">
+  <view class="con-heard">商家名称</view>
+  <view class="con-body">
+    <view class="content1">
+      <image class="img1" src="../../images/search.png" mode="" />
+    </view>
+    <view class="content2">
+      <view class="content-title con1">优惠券名称名称名称</view>
+      <view class="con1">有效期: 截至2020/10/28</view>
+      <view class="con2">  券码: 12138</view>
+    </view>
+    <view class="content3">
+      <view tt:if="{{btnShow == '1'}}" class="classButtom">立即核销</view>
+      <view tt:else class="classButtom">核销成功</view>
+    </view>
+  </view>
+  </view>
+</view>
+<!-- tt:else -->
+<!-- <view>
+  该手机暂无优惠券
+</view> -->
+
+
+
+<!-- 弹窗部分 -->
+<view class="open" tt:if="{{openParams}}">
+    <view class="opentc">
+    <view class="icondel">×</view>
+    <view class="titlets">该优惠券未到使用时间</view>
+    <view class="classButtom openBtn">好的</view>
+    </view>
+</view>

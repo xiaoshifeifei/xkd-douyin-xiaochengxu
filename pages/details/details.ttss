@@ -1,0 +1,184 @@
+body {
+  background-color: #fff !important;
+}
+#page-detail {
+  background-color: #fff;
+  height: 100%;
+  padding-bottom: 120rpx;
+}
+#goods-pic {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid #d1d1d1;
+  margin: 0 auto;
+}
+#good-info {
+  padding: 10px;
+}
+#good-name {
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+.classButtom {
+  background-color: #146eeb !important;
+  color: #fff;
+}
+#good-price {
+  color: #999;
+  font-size: 12px;
+  text-decoration: line-through;
+  float: left;
+}
+#good-price-coupon {
+  color: #146eeb;
+  font-size: 16px;
+  float: right;
+}
+#coupon-info {
+  border-top: 1px #f7f7f7 solid;
+  border-bottom: 1px #f7f7f7 solid;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.coupon-info-item {
+  display: flex;
+  margin: 0 10px;
+  height: 40px;
+  line-height: 40px;
+}
+.coupon-info-item-des {
+  border-top: 1px #f7f7f7 solid;
+  margin: 0 10px;
+  padding: 5px 0;
+  font-size: 12px;
+}
+.coupon-des {
+  color: #999;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#coupon-denomination {
+  color: #146eeb;
+}
+#coupon-coin {
+  flex-grow: 1;
+  color: #999;
+  text-align: center;
+}
+#coupon-coin image {
+  width: 16px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#goods-sales {
+  color: #999;
+}
+#shop {
+  padding: 10px;
+}
+#platform-type {
+  font-size: 16px;
+}
+#platform-type image {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#shop-name {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f7f7f7;
+  padding-bottom: 10px;
+}
+.lqtext {
+  font-size: 24rpx;
+}
+#clear {
+  height: 60px;
+  width: 100%;
+  background: #f7f7f7;
+}
+#get-coupon {
+  position: fixed;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  /* border-top: 1px solid #d1d1d1;
+  width: 100%;
+  height: 60px;
+  background-color: #fff; */
+}
+#get-coupon .classButtom {
+  height: 50px;
+  /* margin: 12px 10px; */
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+#tao-kou-ling {
+  height: 200px;
+  width: 80%;
+  margin: 35% auto 0 auto;
+  background: #fff;
+  border-radius: 5px;
+}
+#tao-kou-ling-title {
+  height: 50px;
+  width: 100%;
+  background-color: #f40;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+}
+#tao-kou-ling-content {
+  padding: 10px;
+  margin: 20px 20px;
+  height: 50px;
+  text-align: center;
+  border: 1px #f40 dotted;
+  line-height: 50px;
+}
+#copy-method {
+  padding: 2px 5px;
+  background-color: #f40;
+  position: relative;
+  top: -20px;
+  color: #fff;
+  font-size: 12px;
+  width: 200px;
+  margin: 0 auto;
+  line-height: 15px;
+  height: 15px;
+}
+#tao-kou-ling-content input {
+  height: 50px;
+  position: relative;
+  top: -20px;
+}
+#explain {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+#closed {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}

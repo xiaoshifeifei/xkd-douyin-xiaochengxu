@@ -1,0 +1,13 @@
+
+ <view class="box">
+    <view class="classButtom">核销成功</view>
+    <view class="boxContent">您添加的帮手有权代您核销由您发出的券</view>
+    <view class="boxtitle">添加帮手</view>
+ </view>
+ <view class="bodycontent">
+   <view>昵称/手机号</view>
+   <view class="contentime">2020/10/30 15:30</view>
+   <view class="icondel">
+     <image src="../../images/del.png" mode="" />
+   </view>
+ </view>

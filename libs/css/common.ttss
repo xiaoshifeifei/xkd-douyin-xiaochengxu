@@ -1,0 +1,53 @@
+.btn-lg{
+    background: var(--primary);
+    color: white;
+    font-size: 36rpx;
+    font-weight: 500;
+    border-radius: 49rpx;
+  }
+  .button-hover{
+    opacity:0.7;
+  }
+  .btn-md{
+    height: 64rpx;
+    background: var(--primary);
+    color:white;
+    border-radius: 32rpx;
+    line-height: 64rpx;
+    font-size: 30rpx;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0;
+  }
+  .btn-mini{
+    border-radius: 27rpx;
+    height: 54rpx;
+    color: white;
+    font-size: 30rpx;
+    background: var(--primary);
+    display: inline-block;
+    line-height: 54rpx;
+    vertical-align: middle;
+    margin:0;
+  }
+  .plain-gray{
+      background: none;
+      color: var(--gray);
+      border:1px solid var(--ghostWhite);
+  }
+  .plain-red{
+    background:none;
+    color:var(--red);
+    border:1px solid var(--red);
+  }
+  .submit_bar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    padding-top: 30rpx;
+}

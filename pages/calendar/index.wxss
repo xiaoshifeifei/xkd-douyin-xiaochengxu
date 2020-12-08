@@ -1,0 +1,49 @@
+/* pages/dateSelect/dateSelect.wxss */
+page{
+  background-color: #fff!important;
+}
+.date-day{
+    display: flex;
+    padding:5px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.date-day.bgitem{
+  background-color: #146EEB;
+  color: #fff;
+}
+.date-day.active{
+    background: #146EEB;
+    color:#FFF;
+    border-radius: 5rpx;
+    
+}
+.date-day.unavailable{
+    color:#aaa;
+}
+
+.date-week{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:5px;
+}
+.week{
+    color:#146EEB;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+ .item-days{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35rpx;
+} 
+.bgwhite{
+  background-color: #fff;
+}

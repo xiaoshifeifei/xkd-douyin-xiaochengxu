@@ -1,0 +1,78 @@
+<view id="page-detail">
+	<image id="goods-pic" src="{{couponInfo.ItemPic}}"></image>
+	<view id="good-info">
+		<view id="good-name">{{couponInfo.ItemName}}</view>
+		<!-- <view>
+      <view id="good-price">在售价: ￥{{couponInfo.ItemPrice}}</view>
+      <view></view>
+      <view id="good-price-coupon">券后价: ￥{{couponInfo.QuanHouJia}}</view>
+    </view> -->
+	</view>
+	<view id="coupon-info">
+		<view class="coupon-info-item coupon-info-item-first">
+			<view id="coupon-denomination">{{couponInfo.CouponDenomination}}</view>
+			<view id="coupon-coin"></view>
+			<view id="goods-sales">有效日期: {{couponInfo.MonthlySales}}</view>
+		</view>
+		<view class="coupon-info-item-des">
+			<view class="coupon-des ">
+				<text>剩余数量:</text>
+				<text>11111{{couponInfo.CouponID}}</text>
+			</view>
+			<view class="coupon-des ">
+				<text>领取数量:</text>
+				<text>11111{{couponInfo.CouponID}}</text>
+			</view>
+			<view class="coupon-des ">
+				<text>核销数量:</text>
+				<text>11111{{couponInfo.CouponID}}</text>
+			</view>
+			<view class="coupon-des ">
+				<text>每人限领:</text>
+				<text>11111{{couponInfo.CouponID}}</text>
+			</view>
+			<view class="coupon-des ">
+				<text>联系电话:</text>
+				<text>11111{{couponInfo.CouponID}}</text>
+			</view>
+		</view>
+	</view>
+	<view id="shop">
+		<text class="lqtext">使用说明</text>
+		<view id="shop-name">2222</view>
+		<text class="lqtext">领取说明</text>
+		<view id="shop-name">的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+       的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+       的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+       的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看的高速公路建设考虑到国际上来看
+      的高速公路建设考虑到国际上来看
+    </view>
+	</view>
+	<view class="get-coupon">
+    <view bindtap="getCoupon" class="classButtom" type="warn" loading="{{loadingBtn}}">立即领取</view>
+  </view>
+	<!-- <view hidden="{{showStatus ? false : true}}" id="mask">
+    <view id="tao-kou-ling">
+      <view id="tao-kou-ling-title">淘口令购买
+        <icon id="closed" type="cancel" size="30" color="#fff" bindtap="hideView" />
+      </view>
+      <view id="tao-kou-ling-content">
+        <view id="copy-method">点击文本后，长按选择“全部复制”</view>
+        <input id="tao-kou-ling-text" value="{{taoKouLing}}" maxlength="{{maxLength}}" />
+      </view>
+      <view id="explain">复制之后，请打开【手机淘宝】购买！</view>
+    </view>
+  </view> -->
+</view>

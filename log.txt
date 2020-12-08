@@ -1,0 +1,3609 @@
+{
+    "您需要额外关注的转化日志信息": {
+        "0": {
+            "time": "2020-10-22T12:38:14.415Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.js",
+            "row": 77,
+            "column": 26,
+            "before": "wx.env",
+            "after": "tt.env",
+            "message": "api: env 未能识别，请确保该api用法正确。转化了上下文，wx.env ==> tt.env"
+        },
+        "1": {
+            "time": "2020-10-22T12:38:14.418Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.js",
+            "row": 96,
+            "column": 30,
+            "before": "wx.env",
+            "after": "tt.env",
+            "message": "api: env 未能识别，请确保该api用法正确。转化了上下文，wx.env ==> tt.env"
+        },
+        "2": {
+            "time": "2020-10-22T12:38:14.446Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.js",
+            "row": 4,
+            "column": 15,
+            "before": "wx.chooseMessageFile",
+            "after": "tt.chooseMessageFile",
+            "message": "api: chooseMessageFile 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseMessageFile.html"
+        },
+        "3": {
+            "time": "2020-10-22T12:38:15.104Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/store/create.js",
+            "row": 158,
+            "column": 4,
+            "before": "wx.cloud",
+            "after": "tt.cloud",
+            "message": "api: cloud 未能识别，请确保该api用法正确。转化了上下文，wx.cloud ==> tt.cloud"
+        },
+        "4": {
+            "time": "2020-10-22T12:38:15.104Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/store/create.js",
+            "row": 159,
+            "column": 21,
+            "before": "wx.cloud",
+            "after": "tt.cloud",
+            "message": "api: cloud 未能识别，请确保该api用法正确。转化了上下文，wx.cloud ==> tt.cloud"
+        },
+        "5": {
+            "time": "2020-10-22T12:38:15.322Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 91,
+            "column": 12,
+            "before": "wx.requestSubscribeMessage",
+            "after": "tt.requestSubscribeMessage",
+            "message": "api: requestSubscribeMessage 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/open-api/subscribe-message/wx.requestSubscribeMessage.html"
+        },
+        "6": {
+            "time": "2020-10-22T12:38:15.324Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 105,
+            "column": 12,
+            "before": "wx.requestPayment",
+            "after": "tt.requestPayment",
+            "message": "api: requestPayment 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/open-api/payment/wx.requestPayment.html"
+        },
+        "7": {
+            "time": "2020-10-22T12:38:15.401Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/index.js",
+            "row": 245,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "8": {
+            "time": "2020-10-22T12:38:15.586Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-item/index.js",
+            "row": 41,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "9": {
+            "time": "2020-10-22T12:38:15.625Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.js",
+            "row": 52,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "10": {
+            "time": "2020-10-22T12:38:15.712Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/mixins/basic.js",
+            "row": 8,
+            "column": 42,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "11": {
+            "time": "2020-10-22T12:38:15.726Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/mixins/link.js",
+            "row": 13,
+            "column": 16,
+            "before": "wx.undefined",
+            "after": "tt.undefined",
+            "message": "api: undefined 未能识别，请确保该api用法正确。转化了上下文，wx.undefined ==> tt.undefined"
+        },
+        "12": {
+            "time": "2020-10-22T12:38:15.769Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.js",
+            "row": 55,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "13": {
+            "time": "2020-10-22T12:38:15.779Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.js",
+            "row": 10,
+            "column": 16,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "14": {
+            "time": "2020-10-22T12:38:15.779Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.js",
+            "row": 35,
+            "column": 16,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "15": {
+            "time": "2020-10-22T12:38:15.796Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notify/index.js",
+            "row": 40,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "16": {
+            "time": "2020-10-22T12:38:15.797Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notify/index.js",
+            "row": 51,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "17": {
+            "time": "2020-10-22T12:38:15.969Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sticky/index.js",
+            "row": 80,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "18": {
+            "time": "2020-10-22T12:38:16.041Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.js",
+            "row": 106,
+            "column": 8,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "19": {
+            "time": "2020-10-22T12:38:16.041Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.js",
+            "row": 145,
+            "column": 16,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "20": {
+            "time": "2020-10-22T12:38:16.041Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.js",
+            "row": 176,
+            "column": 12,
+            "before": "wx.nextTick",
+            "after": "tt.nextTick",
+            "message": "api: nextTick 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
+        },
+        "21": {
+            "time": "2020-10-22T12:38:16.113Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/utils.js",
+            "row": 45,
+            "column": 8,
+            "before": "wx.chooseMessageFile",
+            "after": "tt.chooseMessageFile",
+            "message": "api: chooseMessageFile 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseMessageFile.html"
+        },
+        "22": {
+            "time": "2020-10-22T12:38:16.196Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/colorui/components/cu-custom.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "23": {
+            "time": "2020-10-22T12:38:16.196Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/colorui/components/cu-custom.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "24": {
+            "time": "2020-10-22T12:38:16.196Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/colorui/components/cu-custom.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "25": {
+            "time": "2020-10-22T12:38:16.196Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/colorui/components/cu-custom.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "26": {
+            "time": "2020-10-22T12:38:16.206Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "27": {
+            "time": "2020-10-22T12:38:16.206Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.ttml",
+            "message": "组件：trees 未能被识别，请确保该写法正确"
+        },
+        "28": {
+            "time": "2020-10-22T12:38:16.213Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "29": {
+            "time": "2020-10-22T12:38:16.213Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "30": {
+            "time": "2020-10-22T12:38:16.214Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.ttml",
+            "message": "组件：trees 未能被识别，请确保该写法正确"
+        },
+        "31": {
+            "time": "2020-10-22T12:38:16.214Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "32": {
+            "time": "2020-10-22T12:38:16.214Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.ttml",
+            "message": "组件：trees 未能被识别，请确保该写法正确"
+        },
+        "33": {
+            "time": "2020-10-22T12:38:16.214Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.ttml",
+            "message": "组件：trees 未能被识别，请确保该写法正确"
+        },
+        "34": {
+            "time": "2020-10-22T12:38:16.223Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/pages/home/home.ttml",
+            "message": "组件：cu-custom 未能被识别，请确保该写法正确"
+        },
+        "35": {
+            "time": "2020-10-22T12:38:16.230Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.ttml",
+            "message": "组件：cu-custom 未能被识别，请确保该写法正确"
+        },
+        "36": {
+            "time": "2020-10-22T12:38:16.242Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/action-sheet/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "37": {
+            "time": "2020-10-22T12:38:16.242Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/action-sheet/index.ttml",
+            "message": "组件：van-popup 未能被识别，请确保该写法正确"
+        },
+        "38": {
+            "time": "2020-10-22T12:38:16.242Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/action-sheet/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "39": {
+            "time": "2020-10-22T12:38:16.242Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/action-sheet/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "40": {
+            "time": "2020-10-22T12:38:16.242Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/action-sheet/index.ttml",
+            "message": "组件：van-loading 未能被识别，请确保该写法正确"
+        },
+        "41": {
+            "time": "2020-10-22T12:38:16.242Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/action-sheet/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "42": {
+            "time": "2020-10-22T12:38:16.250Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/area/index.ttml",
+            "message": "组件：van-picker 未能被识别，请确保该写法正确"
+        },
+        "43": {
+            "time": "2020-10-22T12:38:16.257Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/button/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "44": {
+            "time": "2020-10-22T12:38:16.258Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/button/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "45": {
+            "time": "2020-10-22T12:38:16.258Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/button/index.ttml",
+            "message": "组件：van-loading 未能被识别，请确保该写法正确"
+        },
+        "46": {
+            "time": "2020-10-22T12:38:16.258Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/button/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "47": {
+            "time": "2020-10-22T12:38:16.258Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/button/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "48": {
+            "time": "2020-10-22T12:38:16.258Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/button/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "49": {
+            "time": "2020-10-22T12:38:16.258Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/button/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "50": {
+            "time": "2020-10-22T12:38:16.268Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/calendar.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "51": {
+            "time": "2020-10-22T12:38:16.268Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/calendar.ttml",
+            "message": "组件：header 未能被识别，请确保该写法正确"
+        },
+        "52": {
+            "time": "2020-10-22T12:38:16.268Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/calendar.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "53": {
+            "time": "2020-10-22T12:38:16.268Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/calendar.ttml",
+            "message": "组件：month 未能被识别，请确保该写法正确"
+        },
+        "54": {
+            "time": "2020-10-22T12:38:16.268Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/calendar.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "55": {
+            "time": "2020-10-22T12:38:16.268Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/calendar.ttml",
+            "message": "组件：van-button 未能被识别，请确保该写法正确"
+        },
+        "56": {
+            "time": "2020-10-22T12:38:16.275Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/components/header/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "57": {
+            "time": "2020-10-22T12:38:16.275Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/components/header/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "58": {
+            "time": "2020-10-22T12:38:16.284Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/components/month/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "59": {
+            "time": "2020-10-22T12:38:16.284Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/components/month/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "60": {
+            "time": "2020-10-22T12:38:16.289Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "61": {
+            "time": "2020-10-22T12:38:16.290Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/calendar/index.ttml",
+            "message": "组件：van-popup 未能被识别，请确保该写法正确"
+        },
+        "62": {
+            "time": "2020-10-22T12:38:16.297Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "63": {
+            "time": "2020-10-22T12:38:16.297Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "64": {
+            "time": "2020-10-22T12:38:16.297Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：van-tag 未能被识别，请确保该写法正确"
+        },
+        "65": {
+            "time": "2020-10-22T12:38:16.297Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "66": {
+            "time": "2020-10-22T12:38:16.297Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "67": {
+            "time": "2020-10-22T12:38:16.297Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "68": {
+            "time": "2020-10-22T12:38:16.297Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "69": {
+            "time": "2020-10-22T12:38:16.298Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "70": {
+            "time": "2020-10-22T12:38:16.298Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "71": {
+            "time": "2020-10-22T12:38:16.298Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "72": {
+            "time": "2020-10-22T12:38:16.298Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/card/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "73": {
+            "time": "2020-10-22T12:38:16.304Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell-group/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "74": {
+            "time": "2020-10-22T12:38:16.310Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "75": {
+            "time": "2020-10-22T12:38:16.310Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "76": {
+            "time": "2020-10-22T12:38:16.310Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "77": {
+            "time": "2020-10-22T12:38:16.310Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "78": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "79": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "80": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "81": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "82": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "83": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "84": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "85": {
+            "time": "2020-10-22T12:38:16.311Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "86": {
+            "time": "2020-10-22T12:38:16.319Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/checkbox-group/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "87": {
+            "time": "2020-10-22T12:38:16.322Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/checkbox/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "88": {
+            "time": "2020-10-22T12:38:16.322Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/checkbox/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "89": {
+            "time": "2020-10-22T12:38:16.322Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/checkbox/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "90": {
+            "time": "2020-10-22T12:38:16.322Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/checkbox/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "91": {
+            "time": "2020-10-22T12:38:16.323Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/checkbox/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "92": {
+            "time": "2020-10-22T12:38:16.331Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/circle/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "93": {
+            "time": "2020-10-22T12:38:16.331Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/circle/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "94": {
+            "time": "2020-10-22T12:38:16.338Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/col/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "95": {
+            "time": "2020-10-22T12:38:16.338Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/col/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "96": {
+            "time": "2020-10-22T12:38:16.344Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse-item/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "97": {
+            "time": "2020-10-22T12:38:16.344Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse-item/index.ttml",
+            "message": "组件：van-cell 未能被识别，请确保该写法正确"
+        },
+        "98": {
+            "time": "2020-10-22T12:38:16.345Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "99": {
+            "time": "2020-10-22T12:38:16.345Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "100": {
+            "time": "2020-10-22T12:38:16.345Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "101": {
+            "time": "2020-10-22T12:38:16.345Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "102": {
+            "time": "2020-10-22T12:38:16.345Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "103": {
+            "time": "2020-10-22T12:38:16.353Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/collapse/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "104": {
+            "time": "2020-10-22T12:38:16.356Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/count-down/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "105": {
+            "time": "2020-10-22T12:38:16.356Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/count-down/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "106": {
+            "time": "2020-10-22T12:38:16.363Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/datetime-picker/index.ttml",
+            "message": "组件：van-picker 未能被识别，请确保该写法正确"
+        },
+        "107": {
+            "time": "2020-10-22T12:38:16.371Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dialog/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "108": {
+            "time": "2020-10-22T12:38:16.371Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dialog/index.ttml",
+            "message": "组件：van-popup 未能被识别，请确保该写法正确"
+        },
+        "109": {
+            "time": "2020-10-22T12:38:16.371Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dialog/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "110": {
+            "time": "2020-10-22T12:38:16.371Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dialog/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "111": {
+            "time": "2020-10-22T12:38:16.371Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dialog/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "112": {
+            "time": "2020-10-22T12:38:16.371Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dialog/index.ttml",
+            "message": "组件：van-button 未能被识别，请确保该写法正确"
+        },
+        "113": {
+            "time": "2020-10-22T12:38:16.371Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dialog/index.ttml",
+            "message": "组件：van-button 未能被识别，请确保该写法正确"
+        },
+        "114": {
+            "time": "2020-10-22T12:38:16.377Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/divider/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "115": {
+            "time": "2020-10-22T12:38:16.377Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/divider/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "116": {
+            "time": "2020-10-22T12:38:16.386Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-item/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "117": {
+            "time": "2020-10-22T12:38:16.386Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-item/index.ttml",
+            "message": "组件：van-popup 未能被识别，请确保该写法正确"
+        },
+        "118": {
+            "time": "2020-10-22T12:38:16.386Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-item/index.ttml",
+            "message": "组件：van-cell 未能被识别，请确保该写法正确"
+        },
+        "119": {
+            "time": "2020-10-22T12:38:16.386Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-item/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "120": {
+            "time": "2020-10-22T12:38:16.386Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "121": {
+            "time": "2020-10-22T12:38:16.392Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-menu/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "122": {
+            "time": "2020-10-22T12:38:16.392Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-menu/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "123": {
+            "time": "2020-10-22T12:38:16.394Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-menu/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "124": {
+            "time": "2020-10-22T12:38:16.401Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "125": {
+            "time": "2020-10-22T12:38:16.401Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "126": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：van-cell 未能被识别，请确保该写法正确"
+        },
+        "127": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "128": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "129": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "130": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "131": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "132": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "133": {
+            "time": "2020-10-22T12:38:16.402Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/field/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "134": {
+            "time": "2020-10-22T12:38:16.409Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action-button/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "135": {
+            "time": "2020-10-22T12:38:16.410Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action-button/index.ttml",
+            "message": "组件：van-button 未能被识别，请确保该写法正确"
+        },
+        "136": {
+            "time": "2020-10-22T12:38:16.410Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action-button/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "137": {
+            "time": "2020-10-22T12:38:16.423Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action-icon/index.ttml",
+            "message": "组件：van-button 未能被识别，请确保该写法正确"
+        },
+        "138": {
+            "time": "2020-10-22T12:38:16.423Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action-icon/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "139": {
+            "time": "2020-10-22T12:38:16.423Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action-icon/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "140": {
+            "time": "2020-10-22T12:38:16.434Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "141": {
+            "time": "2020-10-22T12:38:16.434Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/goods-action/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "142": {
+            "time": "2020-10-22T12:38:16.439Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid-item/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "143": {
+            "time": "2020-10-22T12:38:16.439Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid-item/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "144": {
+            "time": "2020-10-22T12:38:16.439Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "145": {
+            "time": "2020-10-22T12:38:16.439Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid-item/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "146": {
+            "time": "2020-10-22T12:38:16.439Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid-item/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "147": {
+            "time": "2020-10-22T12:38:16.439Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "148": {
+            "time": "2020-10-22T12:38:16.439Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "149": {
+            "time": "2020-10-22T12:38:16.449Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/grid/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "150": {
+            "time": "2020-10-22T12:38:16.453Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/icon/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "151": {
+            "time": "2020-10-22T12:38:16.453Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/icon/index.ttml",
+            "message": "组件：van-info 未能被识别，请确保该写法正确"
+        },
+        "152": {
+            "time": "2020-10-22T12:38:16.460Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/image/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "153": {
+            "time": "2020-10-22T12:38:16.461Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/image/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "154": {
+            "time": "2020-10-22T12:38:16.461Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/image/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "155": {
+            "time": "2020-10-22T12:38:16.461Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/image/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "156": {
+            "time": "2020-10-22T12:38:16.461Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/image/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "157": {
+            "time": "2020-10-22T12:38:16.472Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/index-anchor/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "158": {
+            "time": "2020-10-22T12:38:16.472Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/index-anchor/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "159": {
+            "time": "2020-10-22T12:38:16.480Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/index-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "160": {
+            "time": "2020-10-22T12:38:16.487Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/info/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "161": {
+            "time": "2020-10-22T12:38:16.493Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/loading/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "162": {
+            "time": "2020-10-22T12:38:16.493Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/loading/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "163": {
+            "time": "2020-10-22T12:38:16.501Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "164": {
+            "time": "2020-10-22T12:38:16.502Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "165": {
+            "time": "2020-10-22T12:38:16.502Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "166": {
+            "time": "2020-10-22T12:38:16.502Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "167": {
+            "time": "2020-10-22T12:38:16.502Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "168": {
+            "time": "2020-10-22T12:38:16.502Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "169": {
+            "time": "2020-10-22T12:38:16.502Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "170": {
+            "time": "2020-10-22T12:38:16.508Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "171": {
+            "time": "2020-10-22T12:38:16.508Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "172": {
+            "time": "2020-10-22T12:38:16.508Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "173": {
+            "time": "2020-10-22T12:38:16.508Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "174": {
+            "time": "2020-10-22T12:38:16.508Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "175": {
+            "time": "2020-10-22T12:38:16.508Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "176": {
+            "time": "2020-10-22T12:38:16.516Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notify/index.ttml",
+            "message": "组件：van-transition 未能被识别，请确保该写法正确"
+        },
+        "177": {
+            "time": "2020-10-22T12:38:16.522Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/overlay/index.ttml",
+            "message": "组件：van-transition 未能被识别，请确保该写法正确"
+        },
+        "178": {
+            "time": "2020-10-22T12:38:16.522Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/overlay/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "179": {
+            "time": "2020-10-22T12:38:16.529Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/panel/index.ttml",
+            "message": "组件：van-cell 未能被识别，请确保该写法正确"
+        },
+        "180": {
+            "time": "2020-10-22T12:38:16.529Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/panel/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "181": {
+            "time": "2020-10-22T12:38:16.529Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/panel/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "182": {
+            "time": "2020-10-22T12:38:16.529Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/panel/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "183": {
+            "time": "2020-10-22T12:38:16.538Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/picker-column/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "184": {
+            "time": "2020-10-22T12:38:16.544Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/picker/index.ttml",
+            "message": "组件：loading 未能被识别，请确保该写法正确"
+        },
+        "185": {
+            "time": "2020-10-22T12:38:16.544Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/picker/index.ttml",
+            "message": "组件：picker-column 未能被识别，请确保该写法正确"
+        },
+        "186": {
+            "time": "2020-10-22T12:38:16.544Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/picker/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "187": {
+            "time": "2020-10-22T12:38:16.558Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/popup/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "188": {
+            "time": "2020-10-22T12:38:16.558Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/popup/index.ttml",
+            "message": "组件：van-overlay 未能被识别，请确保该写法正确"
+        },
+        "189": {
+            "time": "2020-10-22T12:38:16.558Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/popup/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "190": {
+            "time": "2020-10-22T12:38:16.558Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/popup/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "191": {
+            "time": "2020-10-22T12:38:16.566Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/progress/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "192": {
+            "time": "2020-10-22T12:38:16.566Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/progress/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "193": {
+            "time": "2020-10-22T12:38:16.572Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/radio-group/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "194": {
+            "time": "2020-10-22T12:38:16.575Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/radio/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "195": {
+            "time": "2020-10-22T12:38:16.575Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/radio/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "196": {
+            "time": "2020-10-22T12:38:16.576Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/radio/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "197": {
+            "time": "2020-10-22T12:38:16.576Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/radio/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "198": {
+            "time": "2020-10-22T12:38:16.576Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/radio/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "199": {
+            "time": "2020-10-22T12:38:16.583Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/rate/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "200": {
+            "time": "2020-10-22T12:38:16.583Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/rate/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "201": {
+            "time": "2020-10-22T12:38:16.583Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/rate/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "202": {
+            "time": "2020-10-22T12:38:16.589Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/row/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "203": {
+            "time": "2020-10-22T12:38:16.592Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/search/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "204": {
+            "time": "2020-10-22T12:38:16.593Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/search/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "205": {
+            "time": "2020-10-22T12:38:16.593Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/search/index.ttml",
+            "message": "组件：van-field 未能被识别，请确保该写法正确"
+        },
+        "206": {
+            "time": "2020-10-22T12:38:16.593Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/search/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "207": {
+            "time": "2020-10-22T12:38:16.593Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/search/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "208": {
+            "time": "2020-10-22T12:38:16.593Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/search/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "209": {
+            "time": "2020-10-22T12:38:16.603Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sidebar-item/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "210": {
+            "time": "2020-10-22T12:38:16.603Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sidebar-item/index.ttml",
+            "message": "组件：van-info 未能被识别，请确保该写法正确"
+        },
+        "211": {
+            "time": "2020-10-22T12:38:16.603Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sidebar-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "212": {
+            "time": "2020-10-22T12:38:16.609Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sidebar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "213": {
+            "time": "2020-10-22T12:38:16.617Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/skeleton/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "214": {
+            "time": "2020-10-22T12:38:16.617Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/skeleton/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "215": {
+            "time": "2020-10-22T12:38:16.624Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/slider/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "216": {
+            "time": "2020-10-22T12:38:16.624Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/slider/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "217": {
+            "time": "2020-10-22T12:38:16.631Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/stepper/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "218": {
+            "time": "2020-10-22T12:38:16.638Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/steps/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "219": {
+            "time": "2020-10-22T12:38:16.638Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/steps/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "220": {
+            "time": "2020-10-22T12:38:16.638Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/steps/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "221": {
+            "time": "2020-10-22T12:38:16.638Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/steps/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "222": {
+            "time": "2020-10-22T12:38:16.638Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/steps/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "223": {
+            "time": "2020-10-22T12:38:16.647Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sticky/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "224": {
+            "time": "2020-10-22T12:38:16.647Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sticky/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "225": {
+            "time": "2020-10-22T12:38:16.647Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/sticky/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "226": {
+            "time": "2020-10-22T12:38:16.654Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/submit-bar/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "227": {
+            "time": "2020-10-22T12:38:16.655Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/submit-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "228": {
+            "time": "2020-10-22T12:38:16.655Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/submit-bar/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "229": {
+            "time": "2020-10-22T12:38:16.655Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/submit-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "230": {
+            "time": "2020-10-22T12:38:16.655Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/submit-bar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "231": {
+            "time": "2020-10-22T12:38:16.655Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/submit-bar/index.ttml",
+            "message": "组件：van-button 未能被识别，请确保该写法正确"
+        },
+        "232": {
+            "time": "2020-10-22T12:38:16.665Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/swipe-cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "233": {
+            "time": "2020-10-22T12:38:16.665Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/swipe-cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "234": {
+            "time": "2020-10-22T12:38:16.665Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/swipe-cell/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "235": {
+            "time": "2020-10-22T12:38:16.672Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/switch/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "236": {
+            "time": "2020-10-22T12:38:16.672Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/switch/index.ttml",
+            "message": "组件：van-loading 未能被识别，请确保该写法正确"
+        },
+        "237": {
+            "time": "2020-10-22T12:38:16.680Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tab/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "238": {
+            "time": "2020-10-22T12:38:16.680Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tab/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "239": {
+            "time": "2020-10-22T12:38:16.687Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar-item/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "240": {
+            "time": "2020-10-22T12:38:16.687Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar-item/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "241": {
+            "time": "2020-10-22T12:38:16.687Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar-item/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "242": {
+            "time": "2020-10-22T12:38:16.687Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "243": {
+            "time": "2020-10-22T12:38:16.687Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "244": {
+            "time": "2020-10-22T12:38:16.687Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar-item/index.ttml",
+            "message": "组件：van-info 未能被识别，请确保该写法正确"
+        },
+        "245": {
+            "time": "2020-10-22T12:38:16.688Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar-item/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "246": {
+            "time": "2020-10-22T12:38:16.693Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "247": {
+            "time": "2020-10-22T12:38:16.693Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabbar/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "248": {
+            "time": "2020-10-22T12:38:16.702Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "249": {
+            "time": "2020-10-22T12:38:16.702Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "250": {
+            "time": "2020-10-22T12:38:16.703Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.ttml",
+            "message": "组件：van-sticky 未能被识别，请确保该写法正确"
+        },
+        "251": {
+            "time": "2020-10-22T12:38:16.703Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "252": {
+            "time": "2020-10-22T12:38:16.703Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.ttml",
+            "message": "组件：van-info 未能被识别，请确保该写法正确"
+        },
+        "253": {
+            "time": "2020-10-22T12:38:16.703Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "254": {
+            "time": "2020-10-22T12:38:16.703Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tabs/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "255": {
+            "time": "2020-10-22T12:38:16.710Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tag/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "256": {
+            "time": "2020-10-22T12:38:16.710Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tag/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "257": {
+            "time": "2020-10-22T12:38:16.710Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tag/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "258": {
+            "time": "2020-10-22T12:38:16.719Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/toast/index.ttml",
+            "message": "组件：van-overlay 未能被识别，请确保该写法正确"
+        },
+        "259": {
+            "time": "2020-10-22T12:38:16.719Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/toast/index.ttml",
+            "message": "组件：van-transition 未能被识别，请确保该写法正确"
+        },
+        "260": {
+            "time": "2020-10-22T12:38:16.719Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/toast/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "261": {
+            "time": "2020-10-22T12:38:16.719Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/toast/index.ttml",
+            "message": "组件：van-loading 未能被识别，请确保该写法正确"
+        },
+        "262": {
+            "time": "2020-10-22T12:38:16.719Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/toast/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "263": {
+            "time": "2020-10-22T12:38:16.719Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/toast/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "264": {
+            "time": "2020-10-22T12:38:16.726Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/transition/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "265": {
+            "time": "2020-10-22T12:38:16.734Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tree-select/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "266": {
+            "time": "2020-10-22T12:38:16.734Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tree-select/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "267": {
+            "time": "2020-10-22T12:38:16.734Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tree-select/index.ttml",
+            "message": "组件：van-sidebar 未能被识别，请确保该写法正确"
+        },
+        "268": {
+            "time": "2020-10-22T12:38:16.734Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tree-select/index.ttml",
+            "message": "组件：van-sidebar-item 未能被识别，请确保该写法正确"
+        },
+        "269": {
+            "time": "2020-10-22T12:38:16.734Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tree-select/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "270": {
+            "time": "2020-10-22T12:38:16.734Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/tree-select/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "271": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：wxs 未能被识别，请确保该写法正确"
+        },
+        "272": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "273": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "274": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：van-loading 未能被识别，请确保该写法正确"
+        },
+        "275": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        },
+        "276": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：block 未能被识别，请确保该写法正确"
+        },
+        "277": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：slot 未能被识别，请确保该写法正确"
+        },
+        "278": {
+            "time": "2020-10-22T12:38:16.741Z",
+            "type": "component check warning",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.ttml",
+            "message": "组件：van-icon 未能被识别，请确保该写法正确"
+        }
+    },
+    "其他常规转化日志信息": {
+        "0": {
+            "time": "2020-10-22T12:38:17.581Z",
+            "type": "stdOut",
+            "message": "🎊    Congratulations, transform done! Please check transform log in"
+        },
+        "1": {
+            "time": "2020-10-22T12:38:17.581Z",
+            "type": "stdOut",
+            "message": "📝    E:\\Work\\douYing\\DYing\\wx\\log.txt"
+        },
+        "2": {
+            "time": "2020-10-22T12:38:13.476Z",
+            "type": "transform wxss file suffix",
+            "file": "index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "3": {
+            "time": "2020-10-22T12:38:13.488Z",
+            "type": "transform wxml file suffix",
+            "file": "home\\home.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "4": {
+            "time": "2020-10-22T12:38:13.488Z",
+            "type": "transform wxss file suffix",
+            "file": "home\\home.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "5": {
+            "time": "2020-10-22T12:38:13.488Z",
+            "type": "transform wxml file suffix",
+            "file": "login\\login.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "6": {
+            "time": "2020-10-22T12:38:13.488Z",
+            "type": "transform wxss file suffix",
+            "file": "login\\login.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "7": {
+            "time": "2020-10-22T12:38:13.489Z",
+            "type": "transform wxml file suffix",
+            "file": "user\\user.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "8": {
+            "time": "2020-10-22T12:38:13.489Z",
+            "type": "transform wxss file suffix",
+            "file": "user\\user.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "9": {
+            "time": "2020-10-22T12:38:13.506Z",
+            "type": "transform wxss file suffix",
+            "file": "colorui\\animation.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "10": {
+            "time": "2020-10-22T12:38:13.506Z",
+            "type": "transform wxml file suffix",
+            "file": "colorui\\components\\cu-custom.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "11": {
+            "time": "2020-10-22T12:38:13.506Z",
+            "type": "transform wxss file suffix",
+            "file": "colorui\\components\\cu-custom.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "12": {
+            "time": "2020-10-22T12:38:13.506Z",
+            "type": "transform wxss file suffix",
+            "file": "colorui\\icon.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "13": {
+            "time": "2020-10-22T12:38:13.506Z",
+            "type": "transform wxss file suffix",
+            "file": "colorui\\main.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "14": {
+            "time": "2020-10-22T12:38:13.506Z",
+            "type": "transform wxss file suffix",
+            "file": "colorui\\shopping.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "15": {
+            "time": "2020-10-22T12:38:13.506Z",
+            "type": "transform wxss file suffix",
+            "file": "css\\common.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "16": {
+            "time": "2020-10-22T12:38:13.507Z",
+            "type": "transform wxml file suffix",
+            "file": "parser\\parser.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "17": {
+            "time": "2020-10-22T12:38:13.507Z",
+            "type": "transform wxss file suffix",
+            "file": "parser\\parser.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "18": {
+            "time": "2020-10-22T12:38:13.507Z",
+            "type": "transform wxml file suffix",
+            "file": "parser\\trees\\trees.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "19": {
+            "time": "2020-10-22T12:38:13.507Z",
+            "type": "transform wxss file suffix",
+            "file": "parser\\trees\\trees.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "20": {
+            "time": "2020-10-22T12:38:13.581Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\action-sheet\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "21": {
+            "time": "2020-10-22T12:38:13.581Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\action-sheet\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "22": {
+            "time": "2020-10-22T12:38:13.581Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\area\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "23": {
+            "time": "2020-10-22T12:38:13.581Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\area\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "24": {
+            "time": "2020-10-22T12:38:13.581Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\button\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "25": {
+            "time": "2020-10-22T12:38:13.581Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\button\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "26": {
+            "time": "2020-10-22T12:38:13.581Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\calendar\\calendar.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "27": {
+            "time": "2020-10-22T12:38:13.582Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\calendar\\components\\header\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "28": {
+            "time": "2020-10-22T12:38:13.582Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\calendar\\components\\header\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "29": {
+            "time": "2020-10-22T12:38:13.582Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\calendar\\components\\month\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "30": {
+            "time": "2020-10-22T12:38:13.582Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\calendar\\components\\month\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "31": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\calendar\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "32": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\calendar\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "33": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\card\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "34": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\card\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "35": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\cell\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "36": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\cell\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "37": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\cell-group\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "38": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\cell-group\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "39": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\checkbox\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "40": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\checkbox\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "41": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\checkbox-group\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "42": {
+            "time": "2020-10-22T12:38:13.583Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\checkbox-group\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "43": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\circle\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "44": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\circle\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "45": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\col\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "46": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\col\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "47": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\collapse\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "48": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\collapse\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "49": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\collapse-item\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "50": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\collapse-item\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "51": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "52": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\clearfix.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "53": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\ellipsis.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "54": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\hairline.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "55": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\mixins\\clearfix.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "56": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\mixins\\ellipsis.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "57": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\mixins\\hairline.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "58": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\theme.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "59": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\common\\style\\var.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "60": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\count-down\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "61": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\count-down\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "62": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\datetime-picker\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "63": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\datetime-picker\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "64": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\dialog\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "65": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\dialog\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "66": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\divider\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "67": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\divider\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "68": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\dropdown-item\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "69": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\dropdown-item\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "70": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\dropdown-menu\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "71": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\dropdown-menu\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "72": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\field\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "73": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\field\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "74": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\goods-action\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "75": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\goods-action\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "76": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\goods-action-button\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "77": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\goods-action-button\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "78": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\goods-action-icon\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "79": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\goods-action-icon\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "80": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\grid\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "81": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\grid\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "82": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\grid-item\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "83": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\grid-item\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "84": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\icon\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "85": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\icon\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "86": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\image\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "87": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\image\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "88": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\index-anchor\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "89": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\index-anchor\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "90": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\index-bar\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "91": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\index-bar\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "92": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\info\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "93": {
+            "time": "2020-10-22T12:38:13.584Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\info\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "94": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\loading\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "95": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\loading\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "96": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\nav-bar\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "97": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\nav-bar\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "98": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\notice-bar\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "99": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\notice-bar\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "100": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\notify\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "101": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\notify\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "102": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\overlay\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "103": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\overlay\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "104": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\panel\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "105": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\panel\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "106": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\picker\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "107": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\picker\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "108": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\picker\\toolbar.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "109": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\picker-column\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "110": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\picker-column\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "111": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\popup\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "112": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\popup\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "113": {
+            "time": "2020-10-22T12:38:13.585Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\progress\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "114": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\progress\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "115": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\radio\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "116": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\radio\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "117": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\radio-group\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "118": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\radio-group\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "119": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\rate\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "120": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\rate\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "121": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\row\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "122": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\row\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "123": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\search\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "124": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\search\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "125": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\sidebar\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "126": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\sidebar\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "127": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\sidebar-item\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "128": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\sidebar-item\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "129": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\skeleton\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "130": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\skeleton\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "131": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\slider\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "132": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\slider\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "133": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\stepper\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "134": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\stepper\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "135": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\steps\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "136": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\steps\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "137": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\sticky\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "138": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\sticky\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "139": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\submit-bar\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "140": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\submit-bar\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "141": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\swipe-cell\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "142": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\swipe-cell\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "143": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\switch\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "144": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\switch\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "145": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\tab\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "146": {
+            "time": "2020-10-22T12:38:13.586Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\tab\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "147": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\tabbar\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "148": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\tabbar\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "149": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\tabbar-item\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "150": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\tabbar-item\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "151": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\tabs\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "152": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\tabs\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "153": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\tag\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "154": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\tag\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "155": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\toast\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "156": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\toast\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "157": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\transition\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "158": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\transition\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "159": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\tree-select\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "160": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\tree-select\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "161": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxml file suffix",
+            "file": "dist\\uploader\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "162": {
+            "time": "2020-10-22T12:38:13.587Z",
+            "type": "transform wxss file suffix",
+            "file": "dist\\uploader\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "163": {
+            "time": "2020-10-22T12:38:14.175Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 66,
+            "column": 24,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "164": {
+            "time": "2020-10-22T12:38:14.176Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 79,
+            "column": 16,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "165": {
+            "time": "2020-10-22T12:38:14.179Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 135,
+            "column": 32,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "166": {
+            "time": "2020-10-22T12:38:14.180Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 141,
+            "column": 24,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "167": {
+            "time": "2020-10-22T12:38:14.180Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 152,
+            "column": 11,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "168": {
+            "time": "2020-10-22T12:38:14.181Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 184,
+            "column": 4,
+            "before": "wx.removeStorageSync",
+            "after": "tt.removeStorageSync",
+            "message": "api: removeStorageSync 成功转化"
+        },
+        "169": {
+            "time": "2020-10-22T12:38:14.181Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 188,
+            "column": 12,
+            "before": "wx.redirectTo",
+            "after": "tt.redirectTo",
+            "message": "api: redirectTo 成功转化"
+        },
+        "170": {
+            "time": "2020-10-22T12:38:14.181Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 193,
+            "column": 12,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "171": {
+            "time": "2020-10-22T12:38:14.181Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 194,
+            "column": 12,
+            "before": "wx.switchTab",
+            "after": "tt.switchTab",
+            "message": "api: switchTab 成功转化"
+        },
+        "172": {
+            "time": "2020-10-22T12:38:14.182Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 226,
+            "column": 19,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "173": {
+            "time": "2020-10-22T12:38:14.182Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 239,
+            "column": 27,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "174": {
+            "time": "2020-10-22T12:38:14.182Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 241,
+            "column": 12,
+            "before": "wx.setStorageSync",
+            "after": "tt.setStorageSync",
+            "message": "api: setStorageSync 成功转化"
+        },
+        "175": {
+            "time": "2020-10-22T12:38:14.182Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/interface.js",
+            "row": 254,
+            "column": 4,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "176": {
+            "time": "2020-10-22T12:38:14.210Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/uploadFile.js",
+            "row": 10,
+            "column": 8,
+            "before": "wx.uploadFile",
+            "after": "tt.uploadFile",
+            "message": "api: uploadFile 成功转化"
+        },
+        "177": {
+            "time": "2020-10-22T12:38:14.211Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/uploadFile.js",
+            "row": 15,
+            "column": 25,
+            "before": "wx.getStorageSync",
+            "after": "tt.getStorageSync",
+            "message": "api: getStorageSync 成功转化"
+        },
+        "178": {
+            "time": "2020-10-22T12:38:14.212Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/uploadFile.js",
+            "row": 31,
+            "column": 4,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "179": {
+            "time": "2020-10-22T12:38:14.212Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/uploadFile.js",
+            "row": 38,
+            "column": 8,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "180": {
+            "time": "2020-10-22T12:38:14.212Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/api/uploadFile.js",
+            "row": 47,
+            "column": 8,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "181": {
+            "time": "2020-10-22T12:38:14.223Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/app.js",
+            "row": 28,
+            "column": 8,
+            "before": "wx.getSystemInfo",
+            "after": "tt.getSystemInfo",
+            "message": "api: getSystemInfo 成功转化"
+        },
+        "182": {
+            "time": "2020-10-22T12:38:14.223Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/app.js",
+            "row": 37,
+            "column": 30,
+            "before": "wx.getMenuButtonBoundingClientRect",
+            "after": "tt.getMenuButtonBoundingClientRect",
+            "message": "api: getMenuButtonBoundingClientRect 成功转化"
+        },
+        "183": {
+            "time": "2020-10-22T12:38:14.235Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/custom-tab-bar/index.js",
+            "row": 49,
+            "column": 6,
+            "before": "wx.switchTab",
+            "after": "tt.switchTab",
+            "message": "api: switchTab 成功转化"
+        },
+        "184": {
+            "time": "2020-10-22T12:38:14.235Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/custom-tab-bar/index.js",
+            "row": 51,
+            "column": 10,
+            "before": "wx.pageScrollTo",
+            "after": "tt.pageScrollTo",
+            "message": "api: pageScrollTo 成功转化"
+        },
+        "185": {
+            "time": "2020-10-22T12:38:14.235Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/custom-tab-bar/index.js",
+            "row": 53,
+            "column": 8,
+            "before": "wx.pageScrollTo",
+            "after": "tt.pageScrollTo",
+            "message": "api: pageScrollTo 成功转化"
+        },
+        "186": {
+            "time": "2020-10-22T12:38:14.235Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/custom-tab-bar/index.js",
+            "row": 57,
+            "column": 8,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "187": {
+            "time": "2020-10-22T12:38:14.244Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/colorui/components/cu-custom.js",
+            "row": 68,
+            "column": 6,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "188": {
+            "time": "2020-10-22T12:38:14.244Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/colorui/components/cu-custom.js",
+            "row": 73,
+            "column": 6,
+            "before": "wx.reLaunch",
+            "after": "tt.reLaunch",
+            "message": "api: reLaunch 成功转化"
+        },
+        "189": {
+            "time": "2020-10-22T12:38:14.264Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/libs/config.js",
+            "row": 2,
+            "column": 16,
+            "before": "wx.canIUse",
+            "after": "tt.canIUse",
+            "message": "api: canIUse 成功转化"
+        },
+        "190": {
+            "time": "2020-10-22T12:38:14.347Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/libs/MpHtmlParser.js",
+            "row": 11,
+            "column": 16,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "191": {
+            "time": "2020-10-22T12:38:14.415Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.js",
+            "row": 10,
+            "column": 7,
+            "before": "wx.getFileSystemManager",
+            "after": "tt.getFileSystemManager",
+            "message": "api: getFileSystemManager 成功转化"
+        },
+        "192": {
+            "time": "2020-10-22T12:38:14.415Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.js",
+            "row": 10,
+            "column": 34,
+            "before": "wx.getFileSystemManager",
+            "after": "tt.getFileSystemManager",
+            "message": "api: getFileSystemManager 成功转化"
+        },
+        "193": {
+            "time": "2020-10-22T12:38:14.418Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.js",
+            "row": 123,
+            "column": 15,
+            "before": "wx.pageScrollTo",
+            "after": "tt.pageScrollTo",
+            "message": "api: pageScrollTo 成功转化"
+        },
+        "194": {
+            "time": "2020-10-22T12:38:14.418Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.js",
+            "row": 173,
+            "column": 8,
+            "before": "wx.setNavigationBarTitle",
+            "after": "tt.setNavigationBarTitle",
+            "message": "api: setNavigationBarTitle 成功转化"
+        },
+        "195": {
+            "time": "2020-10-22T12:38:14.419Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/parser.js",
+            "row": 189,
+            "column": 44,
+            "before": "wx.createVideoContext",
+            "after": "tt.createVideoContext",
+            "message": "api: createVideoContext 成功转化"
+        },
+        "196": {
+            "time": "2020-10-22T12:38:14.446Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.js",
+            "row": 36,
+            "column": 10,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "197": {
+            "time": "2020-10-22T12:38:14.446Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.js",
+            "row": 62,
+            "column": 10,
+            "before": "wx.navigateToMiniProgram",
+            "after": "tt.navigateToMiniProgram",
+            "message": "api: navigateToMiniProgram 成功转化"
+        },
+        "198": {
+            "time": "2020-10-22T12:38:14.447Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.js",
+            "row": 72,
+            "column": 12,
+            "before": "wx.setClipboardData",
+            "after": "tt.setClipboardData",
+            "message": "api: setClipboardData 成功转化"
+        },
+        "199": {
+            "time": "2020-10-22T12:38:14.447Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.js",
+            "row": 75,
+            "column": 16,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "200": {
+            "time": "2020-10-22T12:38:14.447Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.js",
+            "row": 80,
+            "column": 12,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "201": {
+            "time": "2020-10-22T12:38:14.447Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/libs/parser/trees/trees.js",
+            "row": 83,
+            "column": 16,
+            "before": "wx.switchTab",
+            "after": "tt.switchTab",
+            "message": "api: switchTab 成功转化"
+        },
+        "202": {
+            "time": "2020-10-22T12:38:15.067Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/home/home.js",
+            "row": 14,
+            "column": 4,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "203": {
+            "time": "2020-10-22T12:38:15.076Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.js",
+            "row": 11,
+            "column": 13,
+            "before": "wx.canIUse",
+            "after": "tt.canIUse",
+            "message": "api: canIUse 成功转化"
+        },
+        "204": {
+            "time": "2020-10-22T12:38:15.076Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.js",
+            "row": 22,
+            "column": 4,
+            "before": "wx.getSetting",
+            "after": "tt.getSetting",
+            "message": "api: getSetting 成功转化"
+        },
+        "205": {
+            "time": "2020-10-22T12:38:15.076Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.js",
+            "row": 26,
+            "column": 10,
+            "before": "wx.getUserInfo",
+            "after": "tt.getUserInfo",
+            "message": "api: getUserInfo 成功转化"
+        },
+        "206": {
+            "time": "2020-10-22T12:38:15.076Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.js",
+            "row": 65,
+            "column": 6,
+            "before": "wx.navigateBack",
+            "after": "tt.navigateBack",
+            "message": "api: navigateBack 成功转化"
+        },
+        "207": {
+            "time": "2020-10-22T12:38:15.077Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.js",
+            "row": 123,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "208": {
+            "time": "2020-10-22T12:38:15.077Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.js",
+            "row": 163,
+            "column": 4,
+            "before": "wx.login",
+            "after": "tt.login",
+            "message": "api: login 成功转化"
+        },
+        "209": {
+            "time": "2020-10-22T12:38:15.077Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/pages/login/login.js",
+            "row": 177,
+            "column": 10,
+            "before": "wx.removeStorageSync",
+            "after": "tt.removeStorageSync",
+            "message": "api: removeStorageSync 成功转化"
+        },
+        "210": {
+            "time": "2020-10-22T12:38:15.144Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/store/index.js",
+            "row": 14,
+            "column": 17,
+            "before": "wx.canIUse",
+            "after": "tt.canIUse",
+            "message": "api: canIUse 成功转化"
+        },
+        "211": {
+            "time": "2020-10-22T12:38:15.190Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/httpService.js",
+            "row": 25,
+            "column": 6,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "212": {
+            "time": "2020-10-22T12:38:15.190Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/httpService.js",
+            "row": 29,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "213": {
+            "time": "2020-10-22T12:38:15.190Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/httpService.js",
+            "row": 42,
+            "column": 12,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "214": {
+            "time": "2020-10-22T12:38:15.190Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/httpService.js",
+            "row": 123,
+            "column": 8,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "215": {
+            "time": "2020-10-22T12:38:15.190Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/httpService.js",
+            "row": 127,
+            "column": 8,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "216": {
+            "time": "2020-10-22T12:38:15.191Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/httpService.js",
+            "row": 169,
+            "column": 2,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "217": {
+            "time": "2020-10-22T12:38:15.191Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/httpService.js",
+            "row": 176,
+            "column": 2,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "218": {
+            "time": "2020-10-22T12:38:15.241Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/qrCode.js",
+            "row": 767,
+            "column": 14,
+            "before": "wx.createCanvasContext",
+            "after": "tt.createCanvasContext",
+            "message": "api: createCanvasContext 成功转化"
+        },
+        "219": {
+            "time": "2020-10-22T12:38:15.268Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/regExp.js",
+            "row": 6,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "220": {
+            "time": "2020-10-22T12:38:15.268Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/regExp.js",
+            "row": 19,
+            "column": 8,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "221": {
+            "time": "2020-10-22T12:38:15.291Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/util.js",
+            "row": 260,
+            "column": 7,
+            "before": "wx.canIUse",
+            "after": "tt.canIUse",
+            "message": "api: canIUse 成功转化"
+        },
+        "222": {
+            "time": "2020-10-22T12:38:15.291Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/util.js",
+            "row": 261,
+            "column": 30,
+            "before": "wx.getUpdateManager",
+            "after": "tt.getUpdateManager",
+            "message": "api: getUpdateManager 成功转化"
+        },
+        "223": {
+            "time": "2020-10-22T12:38:15.291Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/util.js",
+            "row": 271,
+            "column": 10,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "224": {
+            "time": "2020-10-22T12:38:15.291Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/util.js",
+            "row": 286,
+            "column": 10,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "225": {
+            "time": "2020-10-22T12:38:15.291Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/util.js",
+            "row": 293,
+            "column": 8,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "226": {
+            "time": "2020-10-22T12:38:15.322Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 4,
+            "column": 8,
+            "before": "wx.login",
+            "after": "tt.login",
+            "message": "api: login 成功转化"
+        },
+        "227": {
+            "time": "2020-10-22T12:38:15.322Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 20,
+            "column": 8,
+            "before": "wx.getSetting",
+            "after": "tt.getSetting",
+            "message": "api: getSetting 成功转化"
+        },
+        "228": {
+            "time": "2020-10-22T12:38:15.322Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 31,
+            "column": 8,
+            "before": "wx.openSetting",
+            "after": "tt.openSetting",
+            "message": "api: openSetting 成功转化"
+        },
+        "229": {
+            "time": "2020-10-22T12:38:15.322Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 40,
+            "column": 12,
+            "before": "wx.authorize",
+            "after": "tt.authorize",
+            "message": "api: authorize 成功转化"
+        },
+        "230": {
+            "time": "2020-10-22T12:38:15.322Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 55,
+            "column": 8,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "231": {
+            "time": "2020-10-22T12:38:15.322Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 76,
+            "column": 8,
+            "before": "wx.getSetting",
+            "after": "tt.getSetting",
+            "message": "api: getSetting 成功转化"
+        },
+        "232": {
+            "time": "2020-10-22T12:38:15.324Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 140,
+            "column": 16,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "233": {
+            "time": "2020-10-22T12:38:15.324Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 141,
+            "column": 16,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "234": {
+            "time": "2020-10-22T12:38:15.324Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/utils/wx_promise.js",
+            "row": 147,
+            "column": 16,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "235": {
+            "time": "2020-10-22T12:38:15.462Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/circle/index.js",
+            "row": 59,
+            "column": 27,
+            "before": "wx.createCanvasContext",
+            "after": "tt.createCanvasContext",
+            "message": "api: createCanvasContext 成功转化"
+        },
+        "236": {
+            "time": "2020-10-22T12:38:15.507Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/common/utils.js",
+            "row": 22,
+            "column": 21,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "237": {
+            "time": "2020-10-22T12:38:15.612Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/dropdown-menu/index.js",
+            "row": 55,
+            "column": 33,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "238": {
+            "time": "2020-10-22T12:38:15.692Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/index-bar/index.js",
+            "row": 241,
+            "column": 16,
+            "before": "wx.pageScrollTo",
+            "after": "tt.pageScrollTo",
+            "message": "api: pageScrollTo 成功转化"
+        },
+        "239": {
+            "time": "2020-10-22T12:38:15.713Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/mixins/basic.js",
+            "row": 12,
+            "column": 16,
+            "before": "wx.createSelectorQuery",
+            "after": "tt.createSelectorQuery",
+            "message": "api: createSelectorQuery 成功转化"
+        },
+        "240": {
+            "time": "2020-10-22T12:38:15.769Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/nav-bar/index.js",
+            "row": 35,
+            "column": 36,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "241": {
+            "time": "2020-10-22T12:38:15.779Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.js",
+            "row": 62,
+            "column": 30,
+            "before": "wx.createAnimation",
+            "after": "tt.createAnimation",
+            "message": "api: createAnimation 成功转化"
+        },
+        "242": {
+            "time": "2020-10-22T12:38:15.779Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notice-bar/index.js",
+            "row": 89,
+            "column": 37,
+            "before": "wx.createAnimation",
+            "after": "tt.createAnimation",
+            "message": "api: createAnimation 成功转化"
+        },
+        "243": {
+            "time": "2020-10-22T12:38:15.796Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/notify/index.js",
+            "row": 32,
+            "column": 36,
+            "before": "wx.getSystemInfoSync",
+            "after": "tt.getSystemInfoSync",
+            "message": "api: getSystemInfoSync 成功转化"
+        },
+        "244": {
+            "time": "2020-10-22T12:38:16.097Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.js",
+            "row": 126,
+            "column": 12,
+            "before": "wx.previewImage",
+            "after": "tt.previewImage",
+            "message": "api: previewImage 成功转化"
+        },
+        "245": {
+            "time": "2020-10-22T12:38:16.097Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/index.js",
+            "row": 132,
+            "column": 20,
+            "before": "wx.showToast",
+            "after": "tt.showToast",
+            "message": "api: showToast 成功转化"
+        },
+        "246": {
+            "time": "2020-10-22T12:38:16.112Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/utils.js",
+            "row": 23,
+            "column": 12,
+            "before": "wx.chooseImage",
+            "after": "tt.chooseImage",
+            "message": "api: chooseImage 成功转化"
+        },
+        "247": {
+            "time": "2020-10-22T12:38:16.113Z",
+            "type": "transform function call arg name",
+            "file": "E:/Work/douYing/DYing/wx/vant/dist/uploader/utils.js",
+            "row": 34,
+            "column": 12,
+            "before": "wx.chooseVideo",
+            "after": "tt.chooseVideo",
+            "message": "api: chooseVideo 成功转化"
+        },
+        "248": {
+            "time": "2020-10-22T12:38:16.123Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform js file"
+        },
+        "249": {
+            "time": "2020-10-22T12:38:16.748Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform wxml file"
+        },
+        "250": {
+            "time": "2020-10-22T12:38:17.137Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform wxss file"
+        }
+    }
+}

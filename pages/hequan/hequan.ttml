@@ -1,0 +1,93 @@
+<!-- pages/hequan/hequan.ttml -->
+<view class="topclass"></view>
+<view class="boxName">
+	<view class="box1">
+		<view class="box2">
+			<image class="img" src="../../images/search.png" mode="" />
+		</view>
+		<view class="box3">扫码核销</view>
+	</view>
+	<view class="box1" bindtap="phineHX">
+		<view class="box2">
+			<image class="img" src="../../images/search.png" mode="" />
+		</view>
+		<view class="box3">手机号/卷码核销</view>
+	</view>
+	<view class="box1" bindtap="zhushou">
+		<view class="box2">
+			<image class="img" src="../../images/search.png" mode="" />
+		</view>
+		<view class="box3">核销助手</view>
+	</view>
+</view>
+<view class="tish">
+	核销记录(仅记录近一年)
+</view>
+
+
+<view class="dataAll">
+	<view class="dataBox">
+		<view class="dataBox1">
+			<picker mode="date" value="{{dates1}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange" fields="day">
+				<view class="dataPicker">
+					<view  tt-if="{{isShow1}}">开始日期</view> {{dates1}}
+				</view>
+			</picker>
+		</view>
+    <view class="dataBox_">-</view>
+		<view class="dataBox2">
+			<picker mode="date" value="{{dates2}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange1" fields="day">
+				<view class="dataPicker1">
+					<view tt-if="{{isShow2}}">结束日期</view> {{dates2}}
+				</view>
+			</picker>
+		</view>
+	</view>
+	<view class="dataBoxInput">
+		<input type="" placeholder="输入卷名/核销人" />
+  </view>
+  <view class="dataBoxBtn">
+     <!-- <button type="primary"  catchtap="goToGetCoupon" class="classButtom" size="mini">搜索</button> -->
+     <view catchtap="goToGetCoupon" class="classButtom">搜索</view>
+  </view>
+</view>
+
+<view class="content">
+  <view class="con-heard"> 核销时间: 2020/10/30 12:50</view>
+  <view class="con-body">
+    <view class="content1">
+      <image class="img1" src="../../images/search.png" mode="" />
+    </view>
+    <view class="content2">
+      <view class="content-title con1">优惠券名称名称名称</view>
+      <view class="con1">有效期: 截至2020/10/28</view>
+      <view class="con2">  券码: 12138</view>
+      <view class="con1">核销人: 昵称/手机号</view>
+    </view>
+    <view class="content3">
+      <image class="img2" src="../../images/search.png" mode="" />
+    </view>
+  </view>
+</view>
+<view class="content">
+  <view class="con-heard"> 核销时间: 2020/10/30 12:50</view>
+  <view class="con-body">
+    <view class="content1">
+      <image class="img1" src="../../images/search.png" mode="" />
+    </view>
+    <view class="content2">
+      <view class="content-title con1">优惠券名称名称名称</view>
+      <view class="con1">有效期: 截至2020/10/28</view>
+      <view class="con2">  券码: 12138</view>
+      <view class="con1">核销人: 昵称/手机号</view>
+    </view>
+    <view class="content3">
+      <image class="img2" src="../../images/search.png" mode="" />
+    </view>
+  </view>
+</view>
+
+
+
+
+
